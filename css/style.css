@@ -26,3 +26,32 @@ ul li {
   list-style: none;
   padding: 0 36px;
 }
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: rgb(40, 81, 232);
+  transition: 0.2s ease-in;
+}
+
+main {
+  min-height: 81vh;
+}
+.container {
+  background-color: antiquewhite;
+  max-width: 80vw;
+  margin: auto;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
